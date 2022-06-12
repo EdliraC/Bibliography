@@ -1,0 +1,54 @@
+
+input, textarea
+{
+  border: 1px solid #bdbdbd;
+  border-radius:5px;
+  margin:10px;
+  padding:5px;
+
+}
+fieldset
+{
+  width:50%;
+  padding:3%;
+  margin:3%;
+
+}
+
+legend{
+  border: 1px solid #efefef;
+  text-transform: capitalize;
+  padding:2%;
+  border-radius: 5px;
+}
+#left
+{
+  display:block;
+  margin:2%;
+  width:70%;
+}
+
+/* .uploadInput
+{
+  display: none;
+}
+
+#upload{
+  display:block;
+  cursor:pointer;
+  border-radius:5px;
+  border:1px solid #bdbdbd;
+  padding:3%;
+  width:70%;
+  margin:2%;
+
+} */
+
+/* textarea{
+    border: 1px solid #bdbdbd;
+    border-radius:5px;
+    margin:10px;
+    padding:5px;
+
+
+} */

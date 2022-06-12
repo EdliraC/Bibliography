@@ -1,0 +1,38 @@
+create database bibliography
+
+
+create table bibliographies(
+    ID int AUTO_INCREMENT not null UNIQUE,
+    imageURL varchar(200) not null,
+    caption varchar(150) not null,
+    title varchar(100) not null,
+    author varchar(200) not null,
+    yearPublication int not null,
+    publisher varchar(150),
+    edition int,
+    briefContent varchar(600),
+    primary key(ID)
+  
+)
+
+INSERT INTO `bibliographies`(`ID`, `imageURL`, `caption`, `title`, `author`, `yearPublication`, `publisher`, `edition`, `briefContent`) 
+VALUES ('','DB-logicalLevel.jpg','Foundations of Databases-The Logical Level','Foundations of Databases-The Logical Level','Abiteboul,Hull, Vianu','1994','Addison-Wesely','1','Database theory is a relative newcomer to the field of computer science. Early data management systems were based on techniques from several classical areas of computer science, ranging from hardware and operating systems to data structures and programming languages. In the early seventies, a leap of abstraction from file systems produced relational databases and its accompanying theory, with logic as the catalyst.')
+
+
+INSERT INTO `bibliographies`(`ID`, `imageURL`, `caption`, `title`, `author`, `yearPublication`, `publisher`, `edition`, `briefContent`) 
+VALUES ('','AfirstCourseInLogic.jpg','A First Course in Logic','A First Course in Logic_ An Introduction to Model Theory, Proof Theory, Computability, and Complexity','Shawn Hedman','2006','Oxford University Press','1','Logic is defined as the study of the principles of reasoning. The study of logics
+(as defined above) is the part of this study known as symbolic logic. Symbolic
+logic is a branch of mathematics. Like other areas of mathematics, symbolic logic
+flourished during the past century. A century ago, the primary aim of symbolic
+logic was to provide a foundation for mathematics. Today, foundational studies
+are just one part of symbolic logic.')
+
+
+create table mainAdministrator(
+        ID int unique not null AUTO_INCREMENT,
+        name varchar(30) not null,
+        surname varchar(30) not null,
+    	email varchar(30) not null,
+        psw varchar(256) not null,
+    	primary key(ID)
+	)

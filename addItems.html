@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add new bibliography items</title>
+    <link rel="stylesheet" href="mainStyling.css">
+     <link rel="stylesheet" href="FormMainStyling.css">
+  </head>
+  <body>
+    <div id="general">
+      <!-- here the main header -->
+    <header>
+      <h1>Bibliography</h1>
+      <nav>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="searchBibliography.html">Search Items</a></li>
+          <li><a href="userLogIn.html">Log In</a></li>
+          <li><a href="addItems.html"  class='actualPosition'>Add New Items</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- here the place of each item of bibliography -->
+    <section class="">
+      <article class="">
+        <form class="" action="insertItems.php" method="post" enctype='multipart/form-data'>
+          <fieldset>
+            <legend>New Item</legend>
+            <input type="text" name="Title" value="" id="left" placeholder="Enter Title">
+            <input type="text" name="Author" id="left" value="" placeholder="Author(s)">
+            <input type="text" name="Caption" id="left" value="" placeholder="Caption">
+            <input type="number" name="yearPublication" id="left" value="" placeholder="Year of Publication">
+            <input type="text" name="Publisher" id="left" value="" placeholder="Publisher">
+            <input type="number" name="Edition" id="left" value="" placeholder="Edition">
+            <textarea  name="briefContent" rows="10" cols="40" placeholder="Brief Content"></textarea>
+            <label>
+            <input type="file" name="imageURL"  value="" class ="uploadInput" >
+            </label>
+
+            <input type="submit" name="" id="left"  value="Create New Bibliography" >
+
+
+          </fieldset>
+
+        </form>
+      </article>
+    </section>
+
+    <footer>&copy;2022 Bibliography</footer>
+
+  </div><!-- end of div general -->
+
+  </body>
+</html>

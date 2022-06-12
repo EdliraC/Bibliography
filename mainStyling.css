@@ -1,0 +1,99 @@
+body{
+  font-family:Arial, sans-serif;
+  line-height:1.4em;
+  background-color: #efd199;
+  font-size:90%;
+  }
+
+section, article, figure, figcaption, footer, header, nav
+{
+  display:block;
+}
+
+nav li{
+  display:inline;
+  padding:2%;
+  margin:2%;
+}
+
+nav li a{
+  text-decoration: none;
+  color:#ffffff;
+}
+
+nav li a:hover, a.actualPosition
+{
+  color:red;
+}
+nav ul{
+  margin:0;
+
+}
+#general
+{
+    width: 70%;
+    margin: 5% auto;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: white;
+
+}
+header{
+  background-image:url(images/header2.jpg);
+  /* width:60%;
+  height:20%; */
+  height:30%;
+  padding:0%;
+}
+h1{
+  color:white;
+  margin-left:2%;
+  padding:1%;
+}
+
+section{
+  float:left;
+  width:100%;
+  border-bottom:1px solid #efd199;
+}
+article {
+    clear: both;
+    width: 100%;
+    overflow: auto;
+}
+figure{
+  float:left;
+  width:50%;
+  padding:1%;
+  margin:2%;
+  border:1px solid black;
+}
+figcaption
+{
+  margin:1%;
+  font-size:90%;
+}
+
+img{
+  width:50%;
+}
+footer {
+    font-size: 90%;
+    padding: 1%;
+}
+
+h2,h3
+{
+   font-weight: normal;
+   color:blue;
+}
+nav, footer{
+  color:white;
+  background-color: blue;
+  clear:both;
+  height:5%;
+}
+body label{
+  color:red;
+  cursor:pointer;
+}
